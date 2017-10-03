@@ -8,15 +8,16 @@
 //  => 'PDF'
 
 function makeAcronym(stringInput) {
-  var acronym;
+  var acronym='';
   var stringInput = stringInput.split(" ")
   var newAcronym;
   for (var i = 0; i < stringInput.length; i++) {
-        acronym = stringInput[i][0].toUpperCase()
-        console.log(acronym);
+        acronym += stringInput[i][0].toUpperCase()
+
 
         }
-// Falta convertir el array en strin
+        // console.log(acronym);
+        return acronym;
   }
 
 
