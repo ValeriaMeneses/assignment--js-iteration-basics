@@ -9,6 +9,16 @@
  * from the previous queestion
 */
 
+function getFirstLetters(arrayInput) {
+ var newArray = [];
+  for (var i = 0; i < arrayInput.length; i++) {
+    newArray.push(arrayInput[i][0]);
+  }
+    console.log(newArray);
+    return newArray
+}
+//  Me da error en la linea 30
+
 
 
 

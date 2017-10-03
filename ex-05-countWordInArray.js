@@ -8,6 +8,20 @@
  *
 **/
 
+function countWordInArray(stringInput, arrayInput){
+var numeroDeVeces = 0;
+  for (var i = 0; i < arrayInput.length; i++) {
+
+    if (arrayInput[i] === stringInput) {
+      numeroDeVeces ++;
+
+
+    }
+  }
+  // console.log(numeroDeVeces);
+  return numeroDeVeces
+
+}
 
 
 

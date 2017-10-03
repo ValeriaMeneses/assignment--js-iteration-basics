@@ -7,13 +7,13 @@
  * You must use a for-loop to solve this problem.
  **/
 
-
-function arrayToString(arrayInput){
-  /* Your code below. Look at the console.asserts to se*/
-}
-
-
-
+ function arrayToString(arrayInput){
+   var sumadestring = "";
+   for (var i = 0; i < arrayInput.length; i++) {
+     sumadestring = sumadestring + arrayInput[i];
+   }
+   return (sumadestring);
+ }
 
 
 

@@ -8,11 +8,21 @@
  *
 */
 
+function shortiesOnly(arrayInput) {
+  newArray = []
+  for (var i = 0; i < arrayInput.length; i++) {
+    if (arrayInput[i].length <= 4) {
+      newArray.push(arrayInput[i])
+      // console.log(arrayInput[i])
 
+    }
+    // return newArray
+  }
+  console.log(newArray);
+  return newArray
+  // return shortiesOnly
 
-
-
-
+}
 
 
 

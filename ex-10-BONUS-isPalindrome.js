@@ -9,7 +9,18 @@
  * from the previous queestion
 */
 
+function isPalindrome(stringInput) {
+  var palindrome = stringInput.split("").reverse().join("");
+  if (stringInput === palindrome) {
+    // console.log(true);
+    return true
 
+  }else {
+    // console.log(false);
+    return false
+  }
+
+}
 
 
 

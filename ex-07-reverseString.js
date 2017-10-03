@@ -8,6 +8,18 @@
  *
 */
 
+function reverseString(stringInput) {
+  var reverseString='';
+  var cadena = stringInput.length
+  for (i = cadena-1; i >= 0; i--) {
+    reverseString += stringInput[i];
+
+
+  }
+// console.log(reverseString);
+return reverseString;
+}
+
 
 
 

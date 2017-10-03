@@ -7,6 +7,18 @@
 // makeAcronym('PNG')
 //  => 'PDF'
 
+function makeAcronym(stringInput) {
+  var acronym;
+  var stringInput = stringInput.split(" ")
+  var newAcronym;
+  for (var i = 0; i < stringInput.length; i++) {
+        acronym = stringInput[i][0].toUpperCase()
+        console.log(acronym);
+
+        }
+// Falta convertir el array en strin
+  }
+
 
 
 

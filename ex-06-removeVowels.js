@@ -7,9 +7,22 @@
  *
 */
 
+function removeVowels(stringInput){
+  stringInput = stringInput.toLowerCase()
+  var nuevostring = [];
 
+  for (var i = 0; i < stringInput.length; i++) {
+    var cadaLetra = stringInput[i]
 
+    if (cadaLetra !== "a"  && cadaLetra !== "e"  &&  cadaLetra !== "i"  &&  cadaLetra !== "o"  &&  cadaLetra !== "u") {
+      nuevostring.push(cadaLetra);
+    }
 
+  }
+  // console.log(nuevostring.join(""));
+  return nuevostring.join("")
+
+}
 
 
 

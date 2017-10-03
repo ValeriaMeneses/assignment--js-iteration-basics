@@ -7,7 +7,24 @@
  *
 */
 
+function wordMatchInArray(word, list){
+  for (var i = 0; i < list.length; i++) {
+    var word_list = list[i];
+    if (word_list === word) {
+      return true
+    }
 
+    }
+    return false
+  }
+
+// function wordMatchInArray(stringInput, arrayInput){
+//   for (var i = 0; i < arrayInput.length; i++) {
+//     if (stringInput === arrayInput[i]) {
+//         console.log(true);
+//     }
+//   }
+// }
 
 
 
